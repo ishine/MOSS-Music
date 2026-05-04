@@ -6,8 +6,8 @@
 
 <div align="center">
 
-<a href="https://huggingface.co/collections/OpenMOSS-Team/moss-music"><img src="https://img.shields.io/badge/Huggingface-Models-orange?logo=huggingface&amp"></a>
-<a href="https://modelscope.cn/collections/openmoss/MOSS-Music"><img src="https://img.shields.io/badge/ModelScope-Models-624AFF?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyeiIvPjwvc3ZnPg==&amp"></a>
+<a href="https://huggingface.co/OpenMOSS-Team/MOSS-Music-8B-Instruct"><img src="https://img.shields.io/badge/Huggingface-Models-orange?logo=huggingface&amp"></a>
+<!-- <a href="https://modelscope.cn/models/openmoss/MOSS-Music-8B-Instruct"><img src="https://img.shields.io/badge/ModelScope-Models-624AFF?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyeiIvPjwvc3ZnPg==&amp"></a> -->
 <img src="https://img.shields.io/badge/Blog-Coming_Soon-blue?logo=internet-explorer&amp">
 <img src="https://img.shields.io/badge/Arxiv-Coming_Soon-red?logo=Arxiv&amp">
 
@@ -28,7 +28,7 @@ MOSS-Music is further specialised on music via dedicated continual pre-training
 and supervised fine-tuning — targeting **musical captioning, lyrics ASR,
 structural analysis, chord / key / tempo reasoning, and long-form musical
 question answering**. In this release, we provide **two 8B models**:
-**MOSS-Music-8B-Instruct** and **MOSS-Music-8B-Thinking**. The Instruct variant
+[**MOSS-Music-8B-Instruct**](https://huggingface.co/OpenMOSS-Team/MOSS-Music-8B-Instruct) and [**MOSS-Music-8B-Thinking**](https://huggingface.co/OpenMOSS-Team/MOSS-Music-8B-Thinking). The Instruct variant
 is optimised for direct instruction following on musical prompts, while the
 Thinking variant provides stronger chain-of-thought reasoning for musical
 analysis.

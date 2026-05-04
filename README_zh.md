@@ -6,8 +6,8 @@
 
 <div align="center">
 
-<a href="https://huggingface.co/collections/OpenMOSS-Team/moss-music"><img src="https://img.shields.io/badge/Huggingface-Models-orange?logo=huggingface&amp"></a>
-<a href="https://modelscope.cn/collections/openmoss/MOSS-Music"><img src="https://img.shields.io/badge/ModelScope-Models-624AFF?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyeiIvPjwvc3ZnPg==&amp"></a>
+<a href="https://huggingface.co/OpenMOSS-Team/MOSS-Music-8B-Instruct"><img src="https://img.shields.io/badge/Huggingface-Models-orange?logo=huggingface&amp"></a>
+<!-- <a href="https://modelscope.cn/models/openmoss/MOSS-Music-8B-Instruct"><img src="https://img.shields.io/badge/ModelScope-Models-624AFF?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyeiIvPjwvc3ZnPg==&amp"></a> -->
 <img src="https://img.shields.io/badge/Blog-Coming_Soon-blue?logo=internet-explorer&amp">
 <img src="https://img.shields.io/badge/Arxiv-Coming_Soon-red?logo=Arxiv&amp">
 
@@ -25,7 +25,7 @@
 它基于与 [MOSS-Audio](https://github.com/OpenMOSS/MOSS-Audio) 相同的音频 backbone，
 在音乐上进行了专门的 **持续预训练** 和 **监督微调**，面向 **音乐描述、歌词 ASR、
 结构分析、和弦 / 调式 / 节奏推理以及长时音乐问答** 等任务。本次发布共提供
-**两个 8B 模型**：**MOSS-Music-8B-Instruct** 和 **MOSS-Music-8B-Thinking**。
+**两个 8B 模型**：[**MOSS-Music-8B-Instruct**](https://huggingface.co/OpenMOSS-Team/MOSS-Music-8B-Instruct) 和 [**MOSS-Music-8B-Thinking**](https://huggingface.co/OpenMOSS-Team/MOSS-Music-8B-Thinking)。
 其中 Instruct 版本更适合直接指令跟随，Thinking 版本则具备更强的音乐分析
 链式思维推理能力。
 
